@@ -58,7 +58,7 @@ def main():
     
     # Título y descripción
     st.markdown("<h1 class='stTitle'>🔢 Clasificación de Dígitos MNIST</h1>", unsafe_allow_html=True)
-    st.markdown("<p class='stMarkdown'>Este modelo escala los datos con StandarScaler y utiliza el método Kernel Ridge Regression con hiperparámetros alpha:0.1 y kernel:rbf para clasificar imágenes de la base de datos MNIST.</p>", unsafe_allow_html=True)
+    st.markdown("<p class='stMarkdown'>Este modelo escala los datos con StandarScaler y utiliza el método Kernel Ridge Regression con hiperparámetros alpha:0.1 y kernel:rbf, para clasificar imágenes de la base de datos MNIST.</p>", unsafe_allow_html=True)
     
     # Subir imagen
     uploaded_file = st.file_uploader("📂 Cargar una imagen", type=["jpg", "png", "jpeg"])

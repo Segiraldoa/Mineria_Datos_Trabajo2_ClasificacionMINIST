@@ -68,7 +68,7 @@ def main():
         
         col1, col2 = st.columns(2)
         with col1:
-            st.image(image, caption="Imagen Original", use_column_width=True)
+            st.image(image, caption="Imagen Original", use_container_width=True)
         
         # Procesamiento de imagen
         preprocessed_image = preprocesse_image(image)

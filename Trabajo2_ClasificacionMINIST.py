@@ -73,7 +73,7 @@ def main():
         # Procesamiento de imagen
         preprocessed_image = preprocesse_image(image)
         with col2:
-            st.image(preprocessed_image, caption="Imagen Preprocesada", use_column_width=True)
+            st.image(preprocessed_image, caption="Imagen Preprocesada", use_container_width=True)
         
         # Botón para clasificar
         if st.button("🔍 Clasificar Imagen"):

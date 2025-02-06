@@ -21,7 +21,7 @@ def load_model():
 
 def main():
   st.title("Clasificación de la base de datos mnist")
-  st.markdown("Los hiperparametros del mejor modelo son: ")
+  st.markdown("El modelo final fue escalado con StandarScaler y el metodo de regresión fue Kernel Ridge con los hiperparametros alpha:0.1, kernel:rbf)
   st.markdown("Suba la imagen para clasificar")
 
   uploaded_file = st.file_uploader("Selecciona una imagen",type=["jpg","png","jpeg"])

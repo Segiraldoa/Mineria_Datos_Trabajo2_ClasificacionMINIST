@@ -34,12 +34,12 @@ def main():
             font-size: 36px;
             text-align: center;
             font-weight: bold;
-            color: #333333;
+            color: #ffffff;
         }
         .stMarkdown {
             font-size: 18px;
             text-align: center;
-            color: #555555;
+            color: #ffffff;
         }
         .stButton button {
             background-color: #008CBA;
